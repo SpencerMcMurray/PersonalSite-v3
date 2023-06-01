@@ -64,7 +64,7 @@ const Projects: FunctionComponent<{}> = () => {
               <div className="pt-4 col-12 text-center">
                 <Button
                   variant="warning"
-                  href="https://github.com/SpencerMcMurray"
+                  href="https://github.com/Specnr"
                 >
                   (git) checkout more!
                 </Button>
@@ -75,7 +75,7 @@ const Projects: FunctionComponent<{}> = () => {
       </div>
       <div className="pl-2 row">
         <small className={theme.txt}>
-          Projects updated in real-time from GitHub
+          Projects updated in real-time from GitHub using <a href="https://swr.vercel.app/">SWR</a>
         </small>
       </div>
     </Layout>

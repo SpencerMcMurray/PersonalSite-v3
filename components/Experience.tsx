@@ -24,13 +24,16 @@ const Experience: FunctionComponent<{}> = () => {
             Looks like you're interested, good to hear!
           </p>
           <p className={`${theme.headers.subHeader} py-3`}>
-            I'm in my 3rd year studying Computer Science at the University of
-            Toronto and I've had a love of building things all my life.
+            I'm currently creating exciting new user experiences
+            for Ceridian's Dayforce product as a Software Developer.
           </p>
           <p className={`${theme.headers.subHeader} py-3`}>
-            Right now I'm on the hunt for Software Development/Engineering
-            internships to expand my knowledge & prepare me for the outside
-            world!
+            Below you'll find my projects, which is where I spend my
+            free time. I love visualizing data and implementing
+            powerful & efficient backends.
+          </p>
+          <p className={`${theme.headers.subHeader} py-3`}>
+            My favourite example of both would be my <br/><a href="https://github.com/Specnr/ResetAnalytics">Reset Analytics</a> project!
           </p>
         </div>
         <div className="col-md-6">

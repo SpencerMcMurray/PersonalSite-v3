@@ -39,7 +39,7 @@ export const experiences: Array<Experience> = [
       name: "Ceridian - Dayforce",
       link: "https://www.ceridian.com/ca/products/dayforce",
     },
-    keyLearnings: ["C#", "JavaScript", "Azure", "Agile", "Unit Testing"],
+    keyLearnings: ["C#", "TypeScript", "Azure", "Agile", "Jest", "Unit Testing"],
   },
   {
     start: "Sept. 2020",
