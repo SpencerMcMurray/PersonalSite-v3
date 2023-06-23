@@ -71,22 +71,18 @@ export const experiences: Array<Experience> = [
 
 export const contacts: Array<Link> = [
   {
-    id: "contact1",
     href: "https://github.com/SpencerMcMurray",
     title: "fab fa-github",
   },
   {
-    id: "contact2",
     href: "https://www.linkedin.com/in/spencer-mcmurray/",
     title: "fab fa-linkedin",
   },
   {
-    id: "contact3",
     href: "mailto:spencermcmurray@hotmail.com",
     title: "fas fa-envelope",
   },
   {
-    id: "contact5",
     href: "https://github.com/Specnr",
     title: "fab fa-github",
   }

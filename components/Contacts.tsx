@@ -13,9 +13,9 @@ const Contacts: FunctionComponent<{}> = () => {
   return (
     <Layout id="contact" height="0" className="pb-4">
       <div className="row text-center">
-        {contacts.map((contact) => {
+        {contacts.map((contact, i) => {
           return (
-            <div key={contact.id} className="col-3">
+            <div key={`${i}-${contact.title}`} className="col-3">
               <a href={contact.href}>
                 <i className={`link-icon ${contact.title} ${theme.txt}`} />
               </a>
