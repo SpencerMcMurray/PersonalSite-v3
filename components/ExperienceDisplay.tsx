@@ -48,7 +48,7 @@ const ExperienceDisplay: FunctionComponent<ExpDisplayProps> = ({ exp }) => {
     <div className={theme.bgInv + " border rounded"}>
       {exp.map((oneXp, idx) => {
         return (
-          <Fragment key={oneXp.start}>
+          <Fragment key={`${idx}-${oneXp.start}`}>
             <ExperienceItem oneXp={oneXp} theme={theme} />
             {idx === exp.length - 1 ? null : <hr className="my-0" />}
           </Fragment>

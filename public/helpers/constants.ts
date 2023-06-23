@@ -4,29 +4,25 @@ export const resumeLink: string = "resume.pdf";
 
 export const links: Array<Link> = [
   {
-    id: "link1",
     href: "#about",
     title: "about",
   },
   {
-    id: "link2",
     href: "#experience",
     title: "experience",
   },
   {
-    id: "link3",
     href: "#projects",
     title: "projects",
   },
   {
-    id: "link4",
     href: "#contact",
     title: "contact",
   },
   {
-    id: "link5",
-    href: "resume.pdf",
+    href: "https://drive.google.com/drive/folders/18y70Hh-x40mhljHvba8CSGMG-28licbs",
     title: "resume",
+    newTab: true
   },
 ];
 

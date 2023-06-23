@@ -1,7 +1,7 @@
 export interface Link {
-  id: string;
   href: string;
   title: string;
+  newTab?: boolean;
 }
 
 export interface Experience {
